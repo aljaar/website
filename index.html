@@ -13,8 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap"
         rel="stylesheet">
-
     <style>
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);
+
         body {
             font-family: Urbanist, sans-serif;
             @apply bg-[#AAEDAA]
@@ -39,12 +40,12 @@
         <input type="checkbox" name="hbr" id="hbr" class="hbr peer" hidden aria-hidden="true">
 
         <!-- Navbar -->
-        <nav class="bg-[#aaedaa] border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
+        <nav class="bg-[#aaedaa] border-gray-200 px-2 sm:px-4 py-2.5 rounded w-full fixed">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <a href="#" class="flex items-center">
                     <img src="src/310068059_3338406639821069_723630168317324632_n.jpg"
                         class="h-6 mr-3 sm:h-9 rounded-full" alt="Flowbite Logo" />
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black">Aljarr</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap">Aljarr</span>
                 </a>
                 <button data-collapse-toggle="navbar-default" type="button"
                     class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -77,7 +78,7 @@
     </header>
 
     <!-- Hero -->
-    <div class="bg-[#FCF6AA] relative pt-40 pb-20 lg:pt-44 ">
+    <!-- <div class="bg-[#FCF6AA] relative pt-40 pb-20 lg:pt-44 ">
         <div class="relative xl:container m-auto px-6 md:px-12 lg:px-6">
             <h1
                 class="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-black text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl ">
@@ -93,114 +94,142 @@
                         mengurangi sampah rumah tangga."
                     </p>
                 </div>
-
-
             </div>
+
         </div>
     </div>
-    </div>
+    </div> -->
+
+    <section class="bg-[#aadeaa]">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
+                    Share
+                    more, Waste less</h1>
+                <p class="max-w-2xl mb-6 font-semibold text-green lg:mb-8 md:text-lg lg:text-xl">Lorem ipsum dolor
+                    sit
+                    amet consectetur adipisicing elit. Aliquid nobis porro nulla minus nihil dicta dolor doloremque
+                    deserunt, culpa eos.</p>
+            </div>
+            <div class=" lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="https://tailus.io/sources/blocks/tech-startup/preview/images/globalization-cuate.svg"
+                    alt="mockup">
+            </div>
+        </div>
+    </section>
 
     <div class="py-16 bg-white overflow-hidden">
         <div class="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
             <div>
                 <h2 class="mt-4 text-center text-gray-900 font-bold md:text-4xl">Ini Adalah Masalah Kita Bersama
                 </h2>
-                <p class="mt-4 text-center text-gray-600 text-lg font-semibol md:px-20">Lorem ipsum dolor, sit amet
+                <hr>
+                <p class="mt-4 text-center text-gray-600 text-lg font-semibold md:px-20">Lorem ipsum dolor, sit amet
                     consectetur adipisicing elit. Hic nesciunt aperiam, veniam adipisci culpa suscipit, labore tempore,
                     sunt fuga eos repellat. Omnis eligendi quasi molestiae commodi dicta laudantium dolorem harum.</p>
             </div>
-            <div
-                class="mt-16 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-                <div class="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
-                    <div class="relative p-8 space-y-8">
-                        <img src="./src/All the data-rafiki.png" class="w-50" width="512" height="512"
-                            alt="burger illustration">
-
-                        <div class="space-y-2">
-                            <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Survey
-                                Dunia</h5>
-                            <p class="text-sm text-gray-600">
-                                Diperkirakan pada tahun 2022 akan ada 205 juta orang di 45 negara yang akan menghadapi
-                                kerawanan pangan akut.
-                            </p>
-                        </div>
-
+        </div>
+        <section class="bg-white border-b py-8">
+            <!-- content-1 -->
+            <div class="container max-w-5xl mx-auto m-8">
+                <div class="w-full mb-4">
+                    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-5/6 sm:w-1/2 p-6">
+                        <h3 class="text-3xl text-gray-800 font-bold leading-none mt-40">
+                            Survey Dunia
+                        </h3>
+                        <p class="text-gray-600 mb-8 text-2xl">
+                            Diperkirakan pada tahun 2022 akan ada 205 juta orang di 45 negara yang akan menghadapi
+                            kerawanan pangan akut
+                        </p>
+                    </div>
+                    <div class="w-full sm:w-1/2 p-3 mt-5">
+                        <img class="w-50 h-50 mx-auto" src="src/Konten-1.png" alt="content 2">
                     </div>
                 </div>
-                <div class="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
-                    <div class="relative p-8 space-y-8">
-                        <img src="./src/Waste management-rafiki.png" class="w-50" width="512" height="512"
-                            alt="burger illustration">
-
-                        <div class="space-y-2">
-                            <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Data Di
-                                Indonesia</h5>
-                            <p class="text-sm text-gray-600">Produksi Sampah Makanan Indonesia Tertinggi di Asia
-                                Tenggara yaitu 20,9 juta Ton/tahun</p>
-                        </div>
-
+                <hr>
+                <!-- content-2 -->
+                <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+                    <div class="w-full sm:w-1/2 p-1 mt-1">
+                        <img src="src/Konten-2.png" alt="content 1" class="w-50 h-50 mx-auto">
                     </div>
-                </div>
-                <div class="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
-                    <div class="relative p-8 space-y-8">
-                        <img src="./src/Hidden person-pana.png" class="w-50" width="512" height="512"
-                            alt="burger illustration">
-
-                        <div class="space-y-2">
-                            <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">Fakta
-                                Penduduk</h5>
-                            <p class="text-sm text-gray-600">Penduduk Indonesia yang mengalami kelaparan sekitar 19,5
-                                Juta setiap harinya.
-
+                    <div class="w-full sm:w-1/2 p-10 mt-10">
+                        <div class="align-middle">
+                            <h3 class="text-3xl text-gray-800 font-bold leading-none mt-40">
+                                Data Di Indonesia
+                            </h3>
+                            <p class="text-gray-600 mb-10 text-2xl">
+                                Produksi Sampah Makanan Indonesia Tertinggi di Asia Tenggara yaitu 20,9 juta Ton/tahun
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
-                    <div class="relative p-8 space-y-8">
-                        <img src="./src/Charity-cuate.png" class="w-50" width="512" height="512"
-                            alt="burger illustration">
-
-                        <div class="space-y-2">
-                            <h5 class="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
-                                Personal</h5>
-                            <p class="text-sm text-gray-600">Masih banyak juga orang yang memiliki makanan atau barang
-                                kebutuhan hidup lainya yang berlebih dan tidak tahu harus diapakan
-
+                <hr>
+                <!-- content-3 -->
+                <div class="flex flex-wrap">
+                    <div class="w-5/6 sm:w-1/2 p-6">
+                        <h3 class="text-3xl text-gray-800 font-bold leading-none mt-40">
+                            Fakta Penduduk
+                        </h3>
+                        <p class="text-gray-600 mb-8 text-2xl">
+                            Penduduk Indonesia yang mengalami kelaparan sekitar 19,5 Juta setiap harinya.
+                        </p>
+                    </div>
+                    <div class="w-full sm:w-1/2 p-3 mt-5">
+                        <img class="w-50 h-50 mx-auto" src="src/Konten-3.png" alt="content 2">
+                    </div>
+                </div>
+                <hr>
+                <!-- content-4 -->
+                <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+                    <div class="w-full sm:w-1/2 p-1 mt-1">
+                        <img src="src/Konten-4.png" alt="content 1" class="w-50 h-50 mx-auto">
+                    </div>
+                    <div class="w-full sm:w-1/2 p-10 mt-10">
+                        <div class="align-middle">
+                            <h3 class="text-3xl text-gray-800 font-bold leading-none mt-40">
+                                Personal
+                            </h3>
+                            <p class="text-gray-600 mb-8 text-2xl">
+                                Masih banyak juga orang yang memiliki makanan atau barang kebutuhan hidup lainya yang
+                                berlebih dan tidak tahu harus diapakan
                             </p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="bg-[#FCF6AA] flex items-center justify-center px-10 py-20">
+        <div class="w-full mx-auto rounded-lg bg-white shadow-lg px-5 pt-5 pb-10 text-gray-800"
+            style="max-width: 500px">
+            <div class="w-full pt-1 pb-5">
+                <div class="overflow-hidden rounded-full w-20 h-20 -mt-16 mx-auto shadow-lg">
+                    <img src="https://ogden_images.s3.amazonaws.com/www.motherearthliving.com/images/2021/06/02082755/anne-bio.jpg"
+                        alt="">
+                </div>
+            </div>
+            <div class="w-full mb-10">
+                <div class="text-3xl text-green text-left leading-tight h-3">“</div>
+                <p class="text-mm text-gray-600 text-center px-5 font-semibold">We don’t need a handful of people
+                    doing zero waste perfectly. We need millions of people doing it imperfectly.</p>
+                <div class="text-3xl text-green text-right leading-tight h-3 -mt-3">”</div>
+            </div>
+            <div class="w-full">
+                <p class="text-md text-green font-bold text-center">Anne Marie Bonneau
+                </p>
+                <p class="text-xs text-gray-500 text-center">Zero Waste Chef</p>
             </div>
         </div>
     </div>
 
-    <figure class="mx-auto max-w-screen-md text-center my-px ">
-        <svg aria-hidden="true" class="mx-auto mb-3 w-12 h-12 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27"
-            fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-                fill="currentColor" />
-        </svg>
-        <blockquote>
-            <p class="text-2xl italic font-medium text-gray-900 dark:text-black">"We don’t need a handful of people
-                doing zero waste perfectly. We need millions of people doing it imperfectly."</p>
-        </blockquote>
-        <figcaption class="flex justify-center items-center mt-6 space-x-3">
-            <img class="w-6 h-6 rounded-full"
-                src="https://ogden_images.s3.amazonaws.com/www.motherearthliving.com/images/2021/06/02082755/anne-bio.jpg"
-                alt="profile picture">
-            <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                <cite class="pr-3 font-medium text-gray-900 dark:text-black">Anne Marie Bonneau</cite>
-                <cite class="pl-3 text-sm font-light text-gray-500 dark:text-yellow">Zero Waste Chef</cite>
-            </div>
-        </figcaption>
-    </figure>
-
     <footer class="px-4 divide-y dark:bg-[#aaedaa] dark:text-black">
         <div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
             <div class="lg:w-1/3">
-                <span class="self-center text-2xl font-semibold">Aljarr</span>
+                <span class="self-center text-2xl font-bold">Aljarr</span>
                 <p>
                     Aljaar merupakan platform berbagi
                     makanan dan produk secara gratis
@@ -211,12 +240,12 @@
                     mengurangi sampah rumah tangga.
                 </p>
             </div>
-            <div class="grid grid-cols-2 text-sm gap-x-20 gap-y-10 lg:w-1/2 sm:grid-cols-2">
+            <div class="grid grid-cols-2 text-sm gap-x-20 gap-y-10 lg:w-1/2 sm:grid-cols-2 font-semibold">
                 <div class="space-y-3">
                     <h3 class="tracking-wide uppercase dark:text-black">Hubungi Kami</h3>
                     <ul class="space-y-5">
                         <li>
-                            <h3 class="noopener noreferrer">Telpon</h3>
+                            <h3 class="noopener noreferrer ">Telpon</h3>
                             <p>085-850-085-850/085-123-456-789</p>
                         </li>
                         <li>
@@ -254,7 +283,7 @@
                         <a rel="noopener noreferrer" href="https://www.facebook.com/" title="Facebook"
                             class="flex items-center p-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32"
-                                class="w-5 h-5 fill-current">
+                                class="w-6 h-6 fill-current">
                                 <path
                                     d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z">
                                 </path>
