@@ -1,7 +1,7 @@
 @import url(https://fontbit.io/css2?family=Open+Sans:wght@400;600;700&display=swap);
 
 body {
-    font-family: Urbanist, sans-serif;
+    font-family: 'Open Sans';
     @apply bg-[#AAEDAA]
 }
 
