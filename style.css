@@ -7,8 +7,9 @@
 body {
     font-family: 'Outfit', sans-serif;
 }
+
 .bg-radial-gradient {
-    background-image: radial-gradient(50% 50% at 50% 50%,#50E587 0,hsla(0,0%,100%,0) 100%);
+    background-image: radial-gradient(50% 50% at 50% 50%, #50E587 0, hsla(0, 0%, 100%, 0) 100%);
 }
 
 .navbar-active .hamburger div:first-child {
@@ -19,6 +20,5 @@ body {
     @apply -rotate-45 -translate-y-1;
 }
 
-.navbar-active div:first-child div:first-child div:last-child {
-    @apply block lg:flex;
+.navbar-active div:first-child div:first-child div:last-child @apply block lg: flex;
 }
